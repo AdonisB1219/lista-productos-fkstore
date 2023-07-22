@@ -26,7 +26,7 @@ function createCards(data) {
     <div class="col">
       <div class="card h-100" style="width: 23rem;">
       <div class="flex-card h-100 d-flex justify-content-center flex-wrap">
-      <div class="text-align-center">
+      <div class="imagen">
          <img src="${producto.image}" class="card-img-top center-block mx-auto d-block img-fit" alt="...">
 </div>
 </div>
