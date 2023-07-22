@@ -1,0 +1,75 @@
+.carta{
+    width: auto;
+    height: 30vh;
+}
+
+.card .img-fit{
+    width: 50%;
+    aspect-ratio: 12/15;
+    object-fit: cover;
+}
+
+
+.description{
+    font-size: 15px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+p{
+    color: rgb(130, 128, 128);
+}
+
+.categoria{
+    font-weight: 500;
+    color: black;
+}
+
+h5{
+    padding-bottom: 5px;
+}
+
+.flex-card{
+    border-radius: 10px;
+    padding: 15px;
+}
+
+ 
+main{
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(90deg,rgba(255, 166, 0, 0.616), rgb(154, 55, 241),rgba(82, 82, 252, 0.666));
+    animation: gradient-animation 13s infinite;
+    background-size: 300%, 300%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+   height: 100%;
+}
+
+.description{
+    flex-grow: 1;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
